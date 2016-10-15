@@ -1,8 +1,14 @@
 {
   "considersVimMode": {
     "type": "boolean",
-    "title": "Considering `vim-mode` status",
+    "title": "Consider `vim-mode` status",
     "description": "Supress jump in insert-mode of [vim-mode](https://atom.io/packages/vim-mode).",
+    "default": true
+  },
+  "adjustsRowInHorizontalJump": {
+    "type": "boolean",
+    "title": "Adjust the cursor row",
+    "description": "If enabled, the cursor row will be adjusted when jumped horizontally.",
     "default": true
   },
   "movesCursorInside": {
