@@ -1,0 +1,5 @@
+'atom-pane':
+  'ctrl-alt-h': 'frog-cursor:jump-to-left'
+  'ctrl-alt-j': 'frog-cursor:jump-to-below'
+  'ctrl-alt-k': 'frog-cursor:jump-to-above'
+  'ctrl-alt-l': 'frog-cursor:jump-to-right'

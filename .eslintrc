@@ -1,0 +1,34 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module"
+  },
+  "rules": {
+    "camelcase": "off",
+    "dot-notation": "off",
+    "eqeqeq": "error",
+    "no-console": "warn",
+    "no-debugger": "warn",
+    "no-multi-spaces": "off",
+    "no-undef": "error",
+    "no-underscore-dangle": "off",
+    "no-unused-vars": [
+      "warn", {
+        "args": "all",
+        "argsIgnorePattern": "^_"
+      }
+    ],
+    "no-use-before-define": "error",
+    "semi-spacing": "off",
+    "strict": "off",
+    "quotes": ["warn", "single"]
+  },
+  "globals": {
+    "atom": false
+  }
+}

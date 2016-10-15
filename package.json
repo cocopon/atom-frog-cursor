@@ -1,0 +1,15 @@
+{
+  "name": "frog-cursor",
+  "main": "./lib/frog-cursor",
+  "version": "0.0.0",
+  "description": "Jumping cursor from pane to pane, like a frog!",
+  "keywords": [
+  ],
+  "repository": "https://github.com/cocopon/atom-frog-cursor",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}

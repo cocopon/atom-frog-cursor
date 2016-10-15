@@ -1,0 +1,29 @@
+{
+  "considersVimMode": {
+    "type": "boolean",
+    "title": "Considering `vim-mode` status",
+    "description": "Supress jump in insert-mode of [vim-mode](https://atom.io/packages/vim-mode).",
+    "default": true
+  },
+  "movesCursorInside": {
+    "type": "object",
+    "title": "Move the cursor inside a pane",
+    "properties": {
+      "enabled": {
+        "type": "boolean",
+        "title": "Enable",
+        "description": "If enabled, the cursor jumps inside a buffer when there is no pane to jump.",
+        "default": true,
+        "order": 1
+      },
+      "force": {
+        "type": "number",
+        "title": "Force",
+        "description": "Factor for amount of displacement. (e.g. `0.33` means 33% of an active pane height)",
+        "minimum": 0.0,
+        "maximum": 1.0,
+        "default": 0.5
+      }
+    }
+  }
+}
